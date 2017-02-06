@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB_PaySlip_Models", "MYOB_PaySlip_Models\MYOB_PaySlip_Models.csproj", "{0A96A829-182C-4F5A-A529-C340E8A43E5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB_PaySlip.Domain", "MYOB_PaySlip_Models\MYOB_PaySlip.Domain.csproj", "{0A96A829-182C-4F5A-A529-C340E8A43E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB_PaySlip.Business", "MYOB_PaySlip.Business\MYOB_PaySlip.Business.csproj", "{950EE831-4B91-4F30-BAC1-22507CDFB388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB_PaySlip.Web.Tests", "MYOB_PaySlip.Web.Tests\MYOB_PaySlip.Web.Tests.csproj", "{351D00F0-BAB5-4DBE-BBD5-22061C2400D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB_PaySlip.Web", "MYOB_PaySlip.Web\MYOB_PaySlip.Web.csproj", "{69DE9987-5784-4385-95AE-BA007AD3753D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{0A96A829-182C-4F5A-A529-C340E8A43E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A96A829-182C-4F5A-A529-C340E8A43E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A96A829-182C-4F5A-A529-C340E8A43E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950EE831-4B91-4F30-BAC1-22507CDFB388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950EE831-4B91-4F30-BAC1-22507CDFB388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950EE831-4B91-4F30-BAC1-22507CDFB388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950EE831-4B91-4F30-BAC1-22507CDFB388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351D00F0-BAB5-4DBE-BBD5-22061C2400D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351D00F0-BAB5-4DBE-BBD5-22061C2400D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351D00F0-BAB5-4DBE-BBD5-22061C2400D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351D00F0-BAB5-4DBE-BBD5-22061C2400D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DE9987-5784-4385-95AE-BA007AD3753D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DE9987-5784-4385-95AE-BA007AD3753D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DE9987-5784-4385-95AE-BA007AD3753D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DE9987-5784-4385-95AE-BA007AD3753D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
